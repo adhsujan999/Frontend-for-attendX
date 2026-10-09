@@ -19,7 +19,7 @@
             <a href="#">Home</a>
             <a href="#features">Features</a>
             <a href="#journey">Journey</a>
-            <a href="tech">Tech</a>
+            <a href="#tech">Tech</a>
         </div>
 
         <div class="nav-cat">
@@ -119,6 +119,101 @@
                     Unique QR codes make student enrollment
                     quick, simple, and hassle-free.
                 </p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="journey" class="teacher-flow">
+        <div class="flow-container">
+
+            <div class="section-tag" style="text-align: center; display: block; margin-bottom: 40px;">
+                — Workflow —
+            </div>
+
+            <h2 style="text-align: center; font-size: 3.5rem; margin-bottom: 80px;">
+                The Teacher's Journey
+            </h2>
+
+            <!-- Step 01 -->
+            <div class="flow-step">
+                <div class="flow-content">
+                    <span class="step-badge">Step 01</span>
+                    <h3>QR Code Enrollment</h3>
+                    <p>
+                        Simplify student registration with smart QR code technology.
+                        Students can scan their unique QR code to access the
+                        enrollment process, making classroom onboarding
+                        faster, easier, and more organized.
+                    </p>
+                </div>
+
+                <div class="flow-image">
+                    <img
+                        src="{{ url_for('static', filename='demo/QR.png') }}"
+                        alt="QR Code Enrollment">
+                </div>
+            </div>
+
+            <!-- Step 02 -->
+            <div class="flow-step">
+                <div class="flow-content">
+                    <span class="step-badge">Step 02</span>
+                    <h3>Secure Teacher Login</h3>
+                    <p>
+                        Access your personalized teaching environment through
+                        a secure login system. Authenticate your credentials
+                        and manage classroom activities with a simple,
+                        reliable, and user-friendly interface.
+                    </p>
+                </div>
+
+                <div class="flow-image">
+                    <img
+                        src="{{ url_for('static', filename='demo/login.png') }}"
+                        alt="Teacher Login">
+                </div>
+            </div>
+
+            <!-- Step 03 -->
+            <div class="flow-step">
+                <div class="flow-content">
+                    <span class="step-badge">Step 03</span>
+                    <h3>Smart Subject Management</h3>
+                    <p>
+                        Organize your classroom with intelligent subject
+                        management. Create and manage subjects, access
+                        enrolled student information, and keep your
+                        attendance records organized in one place.
+                    </p>
+                </div>
+
+                <div class="flow-image">
+                    <img
+                        src="{{ url_for('static', filename='demo/Manage_subject.png') }}"
+                        alt="Subject Management">
+                </div>
+            </div>
+
+            <!-- Step 04 -->
+            <div class="flow-step">
+                <div class="flow-content">
+                    <span class="step-badge">Step 04</span>
+                    <h3>AI-Powered Attendance</h3>
+                    <p>
+                        Transform classroom attendance with artificial
+                        intelligence. Capture a classroom photo and let
+                        facial recognition identify registered students,
+                        automatically generating attendance records
+                        without traditional manual roll calls.
+                    </p>
+                </div>
+
+                <div class="flow-image">
+                    <img
+                        src="{{ url_for('static', filename='demo/Take_Attendance.png') }}"
+                        alt="AI-Powered Attendance">
+                </div>
             </div>
 
         </div>
@@ -250,7 +345,7 @@
         <div class="footer-links">
             <h4>Discover</h4>
             <ul>
-                <li><a href="#journey">Teacher Experience</a></li>
+                <li><a href="#journey">Teacher Experience</a></li><a href="#tech">Tech</a>
                 <li><a href="#student-journey">Student Experience</a></li>
                 <li><a href="#features">Voice Recognition</a></li>
                 <li><a href="#features">Face Recognition</a></li>
